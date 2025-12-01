@@ -1,0 +1,166 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #0B132B;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #F0C75E;
+}
+
+/* ---------------------- */
+/* NAVBAR */
+/* ---------------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #1C2541;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F0C75E;
+    font-weight: 500;
+}
+
+/* ---------------------- */
+/* HERO SECTION */
+/* ---------------------- */
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h2 {
+    font-size: 22px;
+    margin-top: -10px;
+    color: #BFC4D0;
+}
+
+.gold {
+    color: #F0C75E;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.primary {
+    background-color: #F0C75E;
+    color: #0B132B;
+}
+
+.secondary {
+    border: 2px solid #F0C75E;
+    color: #F0C75E;
+}
+
+.primary:hover {
+    background-color: #d8b14e;
+}
+
+.secondary:hover {
+    background-color: #F0C75E;
+    color: #0B132B;
+}
+
+/* ---------------------- */
+/* ABOUT */
+/* ---------------------- */
+
+.about .container {
+    color:white;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 12px;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+/* ---------------------- */
+/* SKILLS */
+/* ---------------------- */
+
+.skills {
+    padding: 50px 0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    padding: 0 100px;
+}
+
+.skill-card {
+    background: #1C2541;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.skill-card img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* ---------------------- */
+/* CONTACT */
+/* ---------------------- */
+
+.contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact a {
+    color: #F0C75E;
+}
+
+.social img {
+    width: 40px;
+    margin: 10px;
+}
