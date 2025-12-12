@@ -17,7 +17,7 @@ h1, h2, h3 {
     color: #F0C75E;
 }
 
-/* NAVBAR */
+
 
 .navbar {
     display: flex;
@@ -43,7 +43,7 @@ h1, h2, h3 {
 }
 
 
-/* HERO SECTION */
+
 
 .hero {
     height: 90vh;
@@ -99,7 +99,7 @@ h1, h2, h3 {
     color: #0B132B;
 }
 
-/* ABOUT */
+
 
 .about .container {
     color:white;
@@ -111,7 +111,7 @@ h1, h2, h3 {
     font-size: 18px;
 }
 
-/* SKILLS */
+
 
 .skills {
     padding: 50px 0;
@@ -121,7 +121,7 @@ h1, h2, h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 30px;
-    padding: 0 100px;
+    padding: 0px 100px;
 }
 
 .skill-card {
